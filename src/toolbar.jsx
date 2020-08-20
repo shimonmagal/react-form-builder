@@ -227,7 +227,7 @@ export default class Toolbar extends React.Component {
       showDescription: item.showDescription,
     };
 
-    if (this.props.showDescription === true && !item.static) {
+    if (!item.static) {
       elementOptions.showDescription = true;
     }
 
